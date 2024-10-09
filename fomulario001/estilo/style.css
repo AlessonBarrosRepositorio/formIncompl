@@ -1,0 +1,63 @@
+@charset "UTF-8";
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(59, 14, 102);
+    
+}
+body{
+    background-color: rgb(213, 231, 229);
+    background-attachment: fixed;
+}
+main{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-color: rgb(191, 221, 233);
+    padding: 1%;
+    border-radius:2%;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.459);
+    
+}
+main div> div> h1, p{
+    text-align: center;
+    margin: 0%;
+    
+}
+main >div > form> div.campo >textarea#experiencia{
+    width: 60%;
+    height: 100%;
+    padding: 1%;
+    
+}
+main > div > form > div.campo > label, input{
+    display: inline-block;
+    padding: 1%;
+}
+
+main > div > form > fieldset{
+    width: 90%;
+    height: 100%;
+    display: inline-block;
+    background-color: rgb(234, 253, 253);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.37);
+}
+main > div > form > fieldset.grupo1> label, input{
+    margin: 0.2%;
+}
+/*main > div > form > fieldset>label, input{
+    margin: 1%;
+    
+}
+main > div > form > fieldset> .separado{
+    margin: 0%;
+}*/
+main > div > form > button{
+    background-color: red;
+    color: #fff;
+    padding: 1%;
+    font-size: 125%;
+    
+}
+main > div > form > button:hover{
+    border-style: unset;
+}
